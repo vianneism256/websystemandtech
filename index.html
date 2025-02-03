@@ -5,23 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vianne's Biography</title>
     <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #f4f4f4;
+        }
 
-    body {
-        font-family: 'Helvetica', sans-serif;
-    }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+        }
 
-    .container {
-        max-width: 1200px;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: white;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        .about-box {
+            background-color: #e9e9e9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
 
-    }
+        .image-box {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+        }
 
-
-
-</style>
+        .image-box img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid #ccc;
+        }
+    </style>
 </head>
 <body>
 
@@ -30,12 +49,10 @@
     <p>Age: 21</p>
     <p>Address: Nabua, Camarines Sur</p>
 
-
     <h3>About</h3>
-    <p>Hi, My name is Vianne Navida, born and raised in Bicol, i'm passionate about<br>
-        game theory, economics, politics, poker, and gaming <br> 
-        I believe in values such as continuous growth, hard work,<br>
-        and helping others<p></p>
+    <div class="about-box">
+        <p>Hi, my name is Vianne Navida, born and raised in Bicol. I'm passionate about game theory, economics, politics, poker, and gaming. I believe in values such as continuous growth, hard work, and helping others.</p>
+    </div>
 
     <h3>Hobbies and Interests</h3>
     <ul>
@@ -45,6 +62,13 @@
         <li>Poker</li>
         <li>Music</li>
     </ul>
+    <div class="image-box">
+        <img src="darts.jpg" alt="Darts">
+        <img src="stocktrading.jpg" alt="Stock Trading">
+        <img src="crypto.jpg" alt="Crypto">
+        <img src="poker.jpg" alt="Poker">
+        <img src="music.jpg" alt="Music">
+    </div>
 
     <h3>Idols and Role Models</h3>
     <ul>
@@ -52,17 +76,34 @@
         <li>Jay-Z</li>
         <li>Elon Musk</li>
         <li>Daniel Negreanu</li>
+        <li>Bill Ackman</li>
     </ul>
+    <div class="image-box">
+        <img src="petedavidson.jpg" alt="Pete Davidson">
+        <img src="jayz.jpg" alt="Jay-Z">
+        <img src="elonmusk.jpg" alt="Elon Musk">
+        <img src="danielnegreanu.jpg" alt="Daniel Negreanu">
+        <img src="billackman.jpg" alt="Bill Ackman">
+    </div>
 
     <h3>Celebrity Crushes</h3>
     <ul>
         <li>Allison Laude</li>
+        <li>Rocio Zobel</li>
         <li>Madelyn Cline</li>
         <li>Selena Gomez</li>
         <li>Jessica Alba</li>
         <li>Dua Lipa</li>
     </ul>
-
+    <div class="image-box">
+        <img src="allisonlaude.jpg" alt="Allison Laude">
+        <img src="rociozobel.jpg" alt="Rocio Zobel">
+        <img src="madelyncline.jpg" alt="Madelyn Cline">
+        <img src="selenagomez.jpg" alt="Selena Gomez">
+        <img src="jessicaalba.jpg" alt="Jessica Alba">
+        <img src="dualipa.jpg" alt="Dua Lipa">
+    </div>
 </div>
+
 </body>
 </html>
